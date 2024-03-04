@@ -11,10 +11,13 @@ body::after {
   content: "Annie";
   position: absolute;
   text-align: center;
-  font-size: 200px;
-  top: 50%;
-  margin-left: 20px;
+  font-size: 240px;
+  top: 45%;
+  margin-left: 40px;
   z-index: -10;
+  font-weight: bolder;
+  opacity: 0.8;
+  font-family: "Dancing Script", cursive;
 }
 
 .heart_container {
@@ -59,8 +62,9 @@ body::after {
   position: absolute;
   left: 50%;
   bottom: 30%;
-  transform: rotate(-45deg) translateX(-50%);
+
   color: white;
+  transform: rotate(-45deg) translateX(-50%);
   animation: heart 5s;
 }
 
@@ -172,12 +176,12 @@ h1::after {
   65% {
     right: 15%;
     top: 10%;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   70% {
     right: 20%;
     top: 10%;
-    transform: rotate(5deg);
+    transform: rotate(0deg);
   }
   100% {
     right: 100%;
